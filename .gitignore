@@ -1,0 +1,55 @@
+# node_modules/
+# Dependencies from npm
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Build files
+/build/
+/dist/
+*.min.js
+*.min.css
+
+# Temporary files
+*.tmp
+*.bak
+*.temp
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.project
+.classpath
+.c9/
+
+# Testing
+/coverage/
+/test-results/
+*.lcov
+
+# Generated files
+generated/
+temp/
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
